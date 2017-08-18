@@ -1,0 +1,326 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+@charset "UTF-8";
+* {
+  font-family: "Arsenal", sans-serif, "Noto Sans TC";
+  position: relative;
+}
+
+html, body {
+  margin: 0;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #a6d8df;
+  overflow: hidden;
+}
+
+.rblock {
+  width: 19%;
+  height: 90%;
+  background-color: #ee5840;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 8%;
+  left: 1%;
+  animation: ani1 2s both;
+}
+
+.wblock {
+  width: 5%;
+  height: 75%;
+  position: absolute;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+
+.wblock1 {
+  top: 21%;
+  left: 26%;
+  animation: ani2 1s both;
+  animation-delay: 0.2s;
+}
+
+.wblock2 {
+  width: 3%;
+  height: 39%;
+  top: 21%;
+  left: 21%;
+  animation: ani3 1s both;
+  animation-delay: 0.4s;
+}
+
+.wblock3 {
+  top: -40%;
+  right: -3%;
+  animation: ani4 1s both;
+  animation-delay: 0.2s;
+}
+
+.wblock4 {
+  width: 3%;
+  top: -26%;
+  right: -1%;
+  animation: ani5 1s both;
+  animation-delay: 0.4s;
+}
+
+.bblock {
+  width: 40%;
+  height: 25%;
+  position: absolute;
+  border: solid 10px #333;
+  border-color: rgba(51, 51, 51, 0.6);
+  transform: rotate(45deg);
+  top: 25%;
+  animation: ani6 3s both;
+}
+
+.bblock2 {
+  width: 13%;
+  height: 11%;
+  position: absolute;
+  border: solid 7px #333;
+  border-color: rgba(51, 51, 51, 0.6);
+  top: 38%;
+  right: -3%;
+  animation: ani8 linear 8s infinite;
+  animation-delay: -1s;
+}
+
+.name {
+  position: absolute;
+  top: 38%;
+  left: 55%;
+  font-size: 7em;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  animation: ani7 1s both;
+  animation-delay: 1s;
+}
+
+.works {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ee5840;
+  display: flex;
+  overflow: hidden;
+}
+
+.works_right {
+  width: 70vw;
+  height: 100vh;
+}
+
+.works_left {
+  width: 30vw;
+  height: 100vh;
+}
+
+.works_title {
+  font-size: 4em;
+  display: inline-block;
+  color: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 11%;
+  left: 30%;
+}
+
+.works_num {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.num1, .num2, .num3, .num4 {
+  display: inline-block;
+  padding: 0px 15px;
+  color: rgba(51, 51, 51, 0.5);
+  cursor: pointer;
+}
+
+.num1 {
+  color: #333;
+}
+
+.description {
+  width: 60%;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  color: #fff;
+}
+
+.button {
+  width: 60px;
+  height: 25x;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 5px 10px;
+}
+.button a {
+  text-decoration: none;
+  color: #ee5840;
+}
+
+.works_img {
+  width: 65vw;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.works_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #a6d8df;
+  border-radius: 100%;
+  position: absolute;
+  top: 72%;
+  right: -3%;
+}
+.circle p {
+  text-align: center;
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 6%;
+  left: 45%;
+}
+
+@keyframes ani1 {
+  0% {
+    top: 33%;
+    left: -25%;
+    opacity: 0;
+  }
+}
+@keyframes ani2 {
+  0% {
+    top: 33%;
+    left: 10%;
+    opacity: 0;
+  }
+}
+@keyframes ani3 {
+  0% {
+    top: 43%;
+    left: -10%;
+    opacity: 0;
+  }
+}
+@keyframes ani4 {
+  0% {
+    top: -55%;
+    right: -15%;
+    opacity: 0;
+  }
+}
+@keyframes ani5 {
+  0% {
+    top: -48%;
+    right: -20%;
+    opacity: 0;
+  }
+}
+@keyframes ani6 {
+  0% {
+    opacity: 0;
+    transform: rotate(-45deg);
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+@keyframes ani7 {
+  0% {
+    opacity: 0;
+    top: 43%;
+  }
+}
+@keyframes ani8 {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ani9 {
+  0% {
+    opacity: 0;
+    top: 55%;
+  }
+}
+@keyframes ani10 {
+  0% {
+    opacity: 0;
+    top: 55%;
+  }
+}
+@keyframes ani11 {
+  0% {
+    opacity: 0;
+    top: 55%;
+  }
+}
+@keyframes ani12 {
+  0% {
+    opacity: 0;
+    top: 55%;
+  }
+}
+@keyframes ani13 {
+  0% {
+    color: #333;
+    opacity: 0;
+  }
+}
+@keyframes ani14 {
+  0% {
+    color: #333;
+    opacity: 0;
+  }
+}
+@keyframes ani15 {
+  0% {
+    color: #333;
+    opacity: 0;
+  }
+}
+@keyframes ani16 {
+  0% {
+    color: #333;
+    opacity: 0;
+  }
+}
+@keyframes ani17 {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes ani18 {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes ani19 {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes ani20 {
+  0% {
+    opacity: 0;
+  }
+}
+
